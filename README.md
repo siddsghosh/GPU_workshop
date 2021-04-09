@@ -6,11 +6,12 @@ to original. So, will use the following step to continue updated:
 * switch to the master branch of your fork
 * merge changes from the upstream repository into your fork
 * add the original repository as remote repository called "upstream"
-
-	git remote add upstream git@github.com:NCAR/GPU_workshop.git
-	git fetch upstream
-	git checkout master
-	git merge upstream/master
+```
+    git remote add upstream git@github.com:NCAR/GPU_workshop.git
+    git fetch upstream
+    git checkout master
+    git merge upstream/master
+```
 
 # Purpose
 For a workshop series presented by the Special Technical Projects Team part of the Computational and Information Systems Laboratory at the National Center for Atmospheric Research
