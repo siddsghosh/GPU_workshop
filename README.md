@@ -1,14 +1,16 @@
 # Forked from git@github.com:NCAR/GPU_workshop.git
 We will update from original but probably not merge changes from here
 to original. So, will use the following step to continue updated:
-- add the original repository as remote repository called "upstream"
-		git remote add upstream https://github.com/OWNER/REPOSITORY.git
-- fetch all changes from the upstream repository
-		git fetch upstream
-- switch to the master branch of your fork
-		git checkout master
-- merge changes from the upstream repository into your fork
-		git merge upstream/master
+* add the original repository as remote repository called "upstream"
+* fetch all changes from the upstream repository
+* switch to the master branch of your fork
+* merge changes from the upstream repository into your fork
+* add the original repository as remote repository called "upstream"
+
+	git remote add upstream git@github.com:NCAR/GPU_workshop.git
+	git fetch upstream
+	git checkout master
+	git merge upstream/master
 
 # Purpose
 For a workshop series presented by the Special Technical Projects Team part of the Computational and Information Systems Laboratory at the National Center for Atmospheric Research
